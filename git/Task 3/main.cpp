@@ -4,7 +4,9 @@ using namespace std;
 
 int main()
 {
-    int N,M,K;
+    int N;
+    int M;
+    int K;
     cout <<"Skolko nozhno oreshkov: ";
     cin >> N;
     cout << "Skolko oreshkov v shiske: ";
