@@ -7,7 +7,7 @@ int main()
     int salary;
     cout << "Your salary $: " ;
     cin >> salary ;
-     if(salary > 1000000)
+    if(salary > 1000000)
     {
         cout << "Da ti millioner" << endl;
         return 0;
@@ -30,3 +30,4 @@ int main()
     system("payse");
     return 0;
 }
+

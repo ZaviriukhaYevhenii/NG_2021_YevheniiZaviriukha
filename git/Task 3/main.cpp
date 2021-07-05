@@ -4,19 +4,18 @@ using namespace std;
 
 int main()
 {
-    int N,M,K,S;
+    int N,M,K;
     cout <<"Skolko nozhno oreshkov: ";
     cin >> N;
     cout << "Skolko oreshkov v shiske: ";
     cin >> M;
     cout << "Skolko ona sobrala: ";
     cin >> K;
-    S = K + M;
-    if(N > S)
+    if(N > (M + K))
     {
         cout << "NO!" << endl;
     }
-    if(N < S)
+    if(N < (M + K))
     {
         cout << "OK" << endl;
     }
