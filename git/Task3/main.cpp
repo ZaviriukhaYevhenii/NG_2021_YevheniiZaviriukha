@@ -13,7 +13,7 @@ int main()
     cin >> M;
     cout << "Skolko ona sobrala: ";
     cin >> K;
-    if(N > (M + K))
+    if(N > (M * K))
     {
         cout << "NO!" << endl;
     }
