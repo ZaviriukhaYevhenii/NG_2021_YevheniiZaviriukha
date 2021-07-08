@@ -4,7 +4,9 @@ using namespace std;
 
 int main()
 {
-    int numeric_one, numeric_two, value;
+    int numeric_one;
+    int numeric_two;
+    int value;
     cout << "Vvedite pervoe chislo: ";
     cin >> numeric_one;
     cout << "Vvedite vtoroe chislo: ";
