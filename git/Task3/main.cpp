@@ -17,7 +17,7 @@ int main()
     {
         cout << "NO!" << endl;
     }
-    if(N < (M + K))
+    else
     {
         cout << "OK" << endl;
     }
