@@ -16,19 +16,17 @@ int main()
     switch(value)
     {
         case 1:
-            value = numeric_one + numeric_two;
+            return numeric_one + numeric_two;
             break;
         case 2:
-            value = numeric_one - numeric_two;
+            return numeric_one - numeric_two;
             break;
         case 3:
-            value = numeric_one * numeric_two;
+            return numeric_one * numeric_two;
             break;
         case 4:
-            value = numeric_one / numeric_two;
+            return numeric_one / numeric_two;
             break;
     }
-    cout << "Result - " << value << endl;
     system("pause");
-    return 0;
 }
