@@ -7,7 +7,7 @@ int main()
     int necessary;
     int cones;
     int gathering;
-    cout <<"Skolko nozhno oreshkov: ";
+    cout << "Skolko nozhno oreshkov: ";
     cin >> necessary;
     cout << "Skolko oreshkov v shiske: ";
     cin >> cones;
