@@ -4,16 +4,16 @@ using namespace std;
 
 int main()
 {
-    int necessary;
-    int cones;
-    int gathering;
+    int N;
+    int M;
+    int K;
     cout << "Skolko nozhno oreshkov: ";
-    cin >> necessary;
+    cin >> N;
     cout << "Skolko oreshkov v shiske: ";
-    cin >> cones;
+    cin >> M;
     cout << "Skolko ona sobrala: ";
-    cin >> gathering;
-    if (necessary > (cones * gathering)){
+    cin >> K;
+    if (N > (M * K)){
         cout << "NO!" << endl;
     } else {
         cout << "OK" << endl;
