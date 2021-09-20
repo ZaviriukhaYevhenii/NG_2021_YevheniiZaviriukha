@@ -12,5 +12,6 @@ int main()
     {
       cout << i << " ";
     }
+    system("pause");
     return 0;
 }
